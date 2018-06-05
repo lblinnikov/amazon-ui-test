@@ -1,18 +1,28 @@
 package pages;
 
-import components.AddToBasket;
-import components.Item;
-import org.openqa.selenium.WebDriver;
+import common.Page;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
-public class ItemPage {
+public class ItemPage extends Page {
 
-	public WebDriver driver;
-	public final Item item;
-	public final AddToBasket addToBasket;
+	private static final String QTY_DROPDOWN_X = "//select[@name='quantity']";
+	private static final String ADD_TO_BASKET_BTN_X = "//input[@value='Add to Basket']";
 
-	public ItemPage(WebDriver driver) {
-		this.driver = driver;
-		this.item = new Item(driver);
-		this.addToBasket = new AddToBasket(driver);
+	public static class Body {
+
+		public static class rightColumn {
+
+			public static WebElement addToBasketButton(){
+				return driver.findElement(By.xpath(ADD_TO_BASKET_BTN_X));
+			}
+
+			public static WebElement quantityDropdown(){
+				return driver.findElement(By.xpath(QTY_DROPDOWN_X));
+			}
+
+		}
+
 	}
+
 }

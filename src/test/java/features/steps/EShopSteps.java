@@ -1,61 +1,78 @@
 package features.steps;
 
-import java.util.Arrays;
-import java.util.List;
-
-import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
-
-import core.DriverInitializer;
+import actions.DropdownSelectActions;
+import actions.SearchActions;
+import components.*;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
-import pages.*;
+import common.Page;
 
-public class EShopSteps {
+import static org.junit.Assert.*;
 
-	private static WebDriver driver;
-	private static ResultPage resultPage;
-	private static ItemPage itemPage;
-	private static BagPage bagPage;
+public class EShopSteps extends Page{
 
 	@Before
-	public static void setUpClass() {
-		driver = new DriverInitializer().openChromeDriver();
-		driver.manage().window().maximize();
-		resultPage = new ResultPage(driver);
-		itemPage = new ItemPage(driver);
-		bagPage = new BagPage(driver);
-	}
-
-	@After
-	public void tearDown() {
-		driver.close();
-		driver.quit();
+	public static void setUp(){
+		Page.setUpDriverClass();
 	}
 
 	@Given("^user goes to the e-shop page$")
 	public void userGoesToTheEShopPage() {
-		driver.get("https://www.amazon.co.uk/");
+		Page.getBaseUrl();
 	}
 
 	@When("^user searches (.*)$")
-	public void userSearchesByKeyword(String keyword) {
+	public void userSearchesByKeywordClick(String keys) {
+		assertTrue("Search form not displayed!", Main.searchFormDisplayed());
+		assertTrue("Search button not displayed!", Main.searchButtonDisplayed());
+		SearchActions.executeSearch(keys);
 	}
 
-	@When("^user adds product (.*)$")
-	public void userAddsTwoProducts(String item) {
+	@When("^user presses RETURN after searching (.*)$")
+	public void userSearchesByKeywordAndReturn(String keys) {
+		assertTrue("Search form not displayed!", Main.searchFormDisplayed());
+		SearchActions.executeSearchByReturn(keys);
+	}
+
+	@When("^user adds first product$")
+	public void userAddsFirstProduct() {
+		SearchResults.selectFirstProduct();
+		Item.addToBasket();
+		assertTrue("Added to basket notification not displayed!", PreBag.addedToBasketDisplayed());
+	}
+
+	@When("^user adds product named (.*)$")
+	public void userAddsProductByName(String productName) {
+		SearchResults.selectProductByName(productName);
+		Item.addToBasket();
+		assertTrue("Added to basket notification not displayed!", PreBag.addedToBasketDisplayed());
 	}
 
 	@And("^user goes to edit basket$")
 	public void userGoesToTheBasket() {
+		assertTrue("No Edit Basket button to click!", PreBag.editBasketButtonDisplayed());
+		PreBag.editBasket();
+		assertTrue("Not in shopping basket!", Bag.shoppingBasketTitleDisplayed());
 	}
 
 	@And("^user adds one more instance of the product$")
 	public void userAddsOneMoreInstanceOfTheProduct() {
+		assertTrue("Not in shopping basket!", Bag.shoppingBasketTitleDisplayed());
+		DropdownSelectActions.selectOneMoreProduct();
+
+
 	}
 
 	@Then("^cost is correctly calculated$")
-	public void costIsCorrectlyCalculated() {
+	public void costIsCorrectlyCalculated() throws InterruptedException {
+		Thread.sleep(2000);
+		Bag.priceCalculatedCorrectly();
+		assertTrue("Cost calculated incorrectly!", Bag.priceCalculatedCorrectly());
+	}
+
+	@After
+	public static void closeBrowser(){
+		Page.tearDown();
 	}
 }

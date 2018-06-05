@@ -1,0 +1,86 @@
+<component name="libraryTable">
+  <library name="json-path-3.0.6-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/groovy-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/groovy-json-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/json-path-3.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/btf-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/guava-16.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jackson-annotations-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jackson-core-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jackson-coreutils-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jackson-databind-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/joda-time-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jopt-simple-4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/json-schema-core-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/json-schema-validator-2.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jsr305-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/libphonenumber-6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/mailapi-1.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/msg-simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/rhino-1.7R4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/uri-template-0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/groovy-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/groovy-json-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/groovy-xml-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/hamcrest-library-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/httpclient-4.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/httpcore-4.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/httpmime-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/jaxb-api-2.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/rest-assured-3.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/tagsoup-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/groovy-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/groovy-xml-2.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/jaxb-api-2.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/tagsoup-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/xml-path-3.0.6.jar!/" />
+      <root url="file://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist" />
+      <root url="file://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist" />
+      <root url="file://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/docs/json-path-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/docs/rest-assured-common-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/docs/json-schema-validator-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/json-path-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/rest-assured-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/rest-assured-common-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/xml-path-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/docs/rest-assured-common-3.0.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/docs/xml-path-3.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/docs/json-path-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-path-3.0.6-dist/docs/rest-assured-common-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/docs/json-schema-validator-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/jsr305-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/json-path-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/rest-assured-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/rest-assured-common-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs/xml-path-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/docs/rest-assured-common-3.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/docs/xml-path-3.0.6-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist" />
+      <root url="file://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/docs" />
+      <root url="file://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs" />
+      <root url="file://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/docs" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/json-schema-validator-3.0.6-dist/docs" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/rest-assured-3.0.6-dist/docs" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../New folder/xml-path-3.0.6-dist/docs" recursive="false" type="SOURCES" />
+  </library>
+</component>

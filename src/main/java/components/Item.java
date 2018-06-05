@@ -1,20 +1,11 @@
 package components;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.ItemPage;
 
-public class Item {
+public class Item extends ItemPage {
 
-	private WebDriver driver;
-
-	public Item(WebDriver driver) {
-		this.driver = driver;
+	public static void addToBasket() {
+		Body.rightColumn.addToBasketButton().click();
 	}
 
-	public void assertItemSelected(String value){
-	}
-
-	public AddToBasket addToTheBag() {
-	}
 }
